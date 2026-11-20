@@ -1,5 +1,5 @@
 
-name: Depot Parallel CI - Ubuntu Node.js
+name: Depot CI - Ubuntu Node.js
 
 on:
   push:
